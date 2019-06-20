@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matchingOrangeHRM]]>
+    </line>
+    <line>
+      <![CDATA[Records are deleted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Title is matchingOrangeHRM]]>
+    </line>
+    <line>
+      <![CDATA[List is sorted]]>
+    </line>
+    <line>
+      <![CDATA[Title is matchingOrangeHRM]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63084" started-at="2019-06-20T04:41:19Z" finished-at="2019-06-20T04:42:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63084" started-at="2019-06-20T04:41:19Z" finished-at="2019-06-20T04:42:22Z">
+      <class name="scripts.TestScripts">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:scripts.TestScripts@31ef45e3]" name="preCondition" is-config="true" duration-ms="10671" started-at="2019-06-20T04:41:19Z" finished-at="2019-06-20T04:41:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="DeleteEmp()[pri:0, instance:scripts.TestScripts@31ef45e3]" name="DeleteEmp" duration-ms="18364" started-at="2019-06-20T04:41:30Z" finished-at="2019-06-20T04:41:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matchingOrangeHRM]]>
+            </line>
+            <line>
+              <![CDATA[Records are deleted successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DeleteEmp -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.TestScripts@31ef45e3]" name="postCondition" is-config="true" duration-ms="585" started-at="2019-06-20T04:41:48Z" finished-at="2019-06-20T04:41:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:scripts.TestScripts@31ef45e3]" name="preCondition" is-config="true" duration-ms="8583" started-at="2019-06-20T04:41:49Z" finished-at="2019-06-20T04:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="SortEmployeeList()[pri:0, instance:scripts.TestScripts@31ef45e3]" name="SortEmployeeList" duration-ms="6271" started-at="2019-06-20T04:41:57Z" finished-at="2019-06-20T04:42:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matchingOrangeHRM]]>
+            </line>
+            <line>
+              <![CDATA[List is sorted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SortEmployeeList -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.TestScripts@31ef45e3]" name="postCondition" is-config="true" duration-ms="523" started-at="2019-06-20T04:42:03Z" finished-at="2019-06-20T04:42:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:scripts.TestScripts@31ef45e3]" name="preCondition" is-config="true" duration-ms="9328" started-at="2019-06-20T04:42:04Z" finished-at="2019-06-20T04:42:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="TestAddEmployee()[pri:0, instance:scripts.TestScripts@31ef45e3]" name="TestAddEmployee" duration-ms="7965" started-at="2019-06-20T04:42:13Z" finished-at="2019-06-20T04:42:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matchingOrangeHRM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestAddEmployee -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.TestScripts@31ef45e3]" name="postCondition" is-config="true" duration-ms="738" started-at="2019-06-20T04:42:21Z" finished-at="2019-06-20T04:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- scripts.TestScripts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
